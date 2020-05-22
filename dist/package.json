@@ -1,0 +1,20 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.14.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
